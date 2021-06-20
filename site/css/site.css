@@ -1,0 +1,143 @@
+* {
+     font-family: "ITC Franklin Gothic", Arial, sans-serif;
+     box-sizing: border-box;
+ }
+
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color: #e6e4d9;
+    background-image: url(../img/xpattern.png);
+}
+
+nav, main {
+    background: white;
+    padding: 1em;
+    border: 2px solid #d0d0d0;
+    border-bottom: 5px solid #d0d0d0;
+    border-radius: 0.5em;
+}
+
+header {
+    background: white;
+    height: 80px;
+    border: 2px solid #d0d0d0;
+    border-bottom: 5px solid #d0d0d0;
+    border-radius: 0.5em;
+    padding: 1em; /* auto */
+}
+
+aside {
+    text-align: center;
+}
+
+aside img {
+    max-width: 100%;
+    padding: 0 1em;
+}
+
+aside p {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+}
+
+nav ul li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+nav ul li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+nav ul li:last-child {
+    border-bottom: none;
+}
+
+nav ul li a.active {
+    background-color: #04AA6D;
+    color: white;
+    pointer-events: none;
+    cursor: default;
+}
+
+nav ul li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+main h1 {
+    margin-top: 0.25em;
+}
+
+main img {
+    max-width: 100%;
+}
+
+.cta {
+    display: block;
+    color: black;
+    margin: 1.5em auto;
+    font-weight: bold;
+    width: 15em;
+    border-radius: 0.5em;
+    border-bottom: 4px solid #a0a0a0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 0.75em;
+    background: #d0d0d0;
+}
+
+body img {
+    object-fit: cover;
+    max-width: 100%;
+}
+
+footer {
+    text-align: center;
+}
+
+a:active, :focus {
+    outline: 2px solid purple;
+    color: white;
+    background: #1111dd;
+}
+
+.spots {
+    background: #d0d0d0;
+    border-radius: 0.5em;
+    padding: 0.5em;
+}
+
+.spots div {
+    border-radius: 0.25em;
+    border: 2px white solid;
+}
+
+.close {
+    margin: 0;
+    padding: 3px 3px 0 3px;
+    background-color: white;
+}
+
+p#dep {
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+.logo {
+    height: 75px;
+}
